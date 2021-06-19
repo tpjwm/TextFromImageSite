@@ -1,0 +1,13 @@
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.textArea{
+    margin: 1em 25em 5em 25em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#chooseFileBtn{
+    padding-top: 10px;
+}
