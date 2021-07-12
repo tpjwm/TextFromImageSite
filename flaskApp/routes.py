@@ -1,6 +1,6 @@
 import os
 from flask import Flask, render_template, flash, redirect, jsonify, request, url_for
-from app import app
+from flaskApp import app
 import cv2
 import pytesseract
 from werkzeug.utils import secure_filename
