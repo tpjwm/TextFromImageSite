@@ -32,7 +32,7 @@ def text_extracted():
         file.save(path)
         flash('Image successfully uploaded and displayed below')
         img = cv2.imread(path)
-        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+        pytesseract.pytesseract.tesseract_cmd = r'/tpjwm/bin/tesseract'
         img_txt = pytesseract.image_to_string(img)
         return render_template('upload.html', filename=filename, img_text=img_txt)
     else:
